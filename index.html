@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Restaurante</title>
-    <!-- Bootstrap Style -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Restaurant</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
@@ -16,17 +13,38 @@
 </head>
 <body>
     <header id="banner">
-        <div class="logo"></div>
-        <nav class="nav-bar">
-            <ul id="main-menu">
-                <li class="menu-item"><a href="#">Home</a></li>
-                <li class="menu-item"><a href="#">Menu</a></li>
-                <li class="menu-item"><a href="#">Team</a></li>
-                <li class="menu-item"><a href="#">Gallery</a></li>
-                <li class="menu-item"><a href="#">Contact Us</a></li>
+        <nav class="main-menu">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <ul>
+                <li><a class="menu-item" title="home" href="#">Home</a></li>
+                <li><a class="menu-item" title="menu" href="#">Menu</a></li>
+                <li><a class="menu-item" title="team" href="#">Team</a></li>
+                <li><a class="menu-item" title="gallery" href="#">Gallery</a></li>
+                <li><a class="menu-item" title="about" href="#">Contact Us</a></li>
             </ul>
         </nav>
         <div class="btn-header"></div>
     </header>
+    
+    <div class="slider-container">
+        <div class="slider-item">
+            <div class="slider-img fade"><img src="img/slider-1.jpg"></div>
+        </div>
+        <div class="slider-caption">
+            <div class="slider-text">
+                <div class="intro-txt">DINING AT</div>
+                <h2>Caverta</h2>
+                <p>We offer a highly seasonal and continuously evolving tasting menu experience.</p>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="slider-img fade"><img src="img/slider-2.jpg"></div>
+        </div>
+        <div class="slider-item">
+            <div class="slider-img fade"><img src="img/slider-3.jpg"></div>
+        </div>
+    </div>
 </body>
 </html>
