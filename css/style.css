@@ -165,3 +165,38 @@ nav ul li a:hover:before {
     color: white;
     z-index: -2;
 }
+
+/*
+.carousel-item img:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+*/
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 54px;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h6 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .03rem;
+}
+
+.carousel-caption h2 {
+    font-size: 108px;
+    letter-spacing: .03em;
+    line-height: 1;
+    margin: 16px 0;
+    font-family: 'Courgette', cursive;
+}
