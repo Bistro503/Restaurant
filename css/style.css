@@ -200,3 +200,122 @@ nav ul li a:hover:before {
     margin: 16px 0;
     font-family: 'Courgette', cursive;
 }
+
+/*======================================================
+                    Parte jorge 
+========================================================*/
+
+.part {
+    text-align:  center;
+    
+}
+
+.altura{
+    height: 758px;
+   }
+
+.description{
+    height: 35rem;
+    /*background: yellow*/
+    padding: 4rem;
+    z-index: -2;
+    justify-content: center;
+    
+}
+
+
+
+text{
+    /*background: brown;*/
+    text-align: center;
+   
+}
+.img2{
+    /*background: red;*/
+    
+}
+
+.description{
+    z-index: -2;
+}
+
+.txtwel{
+    color: #9fc4ce;;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5px;
+    margin-top: 5rem;
+    
+    }
+
+.txtdesc{
+    margin-top: 2rem;
+    font-size: 50px;
+    font-family: Lora,serif;
+}
+
+.txtdesc1{
+    margin-top: 2rem
+}
+
+.menud{
+    height: 15rem;
+    /*background: grey;*/
+    padding: 2rem;
+    z-index: -2;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+.type{
+    font-family: Lora,serif;
+    font-size: 50px;
+}
+
+.picture {
+    color: #9fc4ce;;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5px; 
+
+    
+}
+
+.discover{
+    color: #9fc4ce;;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 5px; 
+}
+
+.txtcreate{
+    font-size: 50px;
+    margin-top: 1rem;
+    
+}
+
+.image{
+    height: 35rem;
+    /*background: green;*/
+    padding: 200px;
+    font-family: Lora,serif;
+}
+
+.menu{
+    padding: 20px;
+    margin-left: 325px;
+    margin-right: 325px;
+
+}
+
+.option{
+    padding: 50px;
+}
+
+.options{
+    font-size: 20px;
+}
+
+
+
+
+
